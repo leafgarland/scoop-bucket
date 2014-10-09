@@ -1,0 +1,15 @@
+{
+    "homepage": "http://mingw.org/wiki/MSYS",
+    "version": "0.18.1-1129",
+    "license": "http://www.info-zip.org/doc/LICENSE",
+    "url": [
+      "https://kjkpub.s3.amazonaws.com/software/the_silver_searcher/rel/0.18.1-1129/ag.zip"
+    ],
+    "hash": [
+      "d628dbac29fa64a75431ee4bd49ed32f32a1e8ca32dada7bb82ec13b29cb649c"
+    ],
+    "bin": [
+      "ag.exe"
+    ],
+    "checkver": "<span id=\"ver\">\\s*\"([0-9\\.\\-]+)\\s*\""
+}
