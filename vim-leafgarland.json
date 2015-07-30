@@ -3,17 +3,11 @@
     "version": "master",
     "license": "MIT",
     "depends": [
-        "gvim",
-        "git",
-        "vim-youcompleteme"
+        "gvim-full"
     ],
     "url": [
       "https://raw.githubusercontent.com/leafgarland/vimfiles/master/.vimrc",
       "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
-    ],
-    "hash": [
-      "5c8b83235486f21a333f1562a79858100718944252f40ea85eda1cf0e351ecfa",
-      "e5d2f08da1407f200c56a5e3c74eaeb9f3342a241f9360cbaa9c28b3e50d3190"
     ],
     "post_install": "
       'backup','swap','undo' | % { mkdir -force ~/.vim/$_ }; mv -force $dir/.vimrc ~/.vimrc
